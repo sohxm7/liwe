@@ -1,4 +1,4 @@
-## Liwe - working
+## Liwe - under work
 
 taken from github.com/hexive/sunpaper which was written in bash, but wasnt working on my machine for some reason. 
 
