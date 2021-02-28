@@ -8,10 +8,14 @@ Liwe is written in python (and kinda slow) but does the work perfectly, also smo
 + [feh](https://github.com/derf/feh)
 + [screeninfo](https://pypi.org/project/screeninfo/)
 
-### Run
+### Installation and configuration
 ```
 git clone https://github.com/sohxm7/liwe.git
 cd liwe
-python init.py # run only one time
-python liwe.py # run everytime you want to update wallpaper, as of now
+python init.py 
+```
+### Add in i3 config
+```
+exec_always --no-startup-id "python $HOME/liwe/liwe.py"
+exec_always --no-startup-id "while sleep 10m; do python $HOME/liwe/liwe.py; done"
 ```
