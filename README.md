@@ -19,6 +19,7 @@ chmod +x liwe.py
 ```
 exec_always --no-startup-id "python $HOME/liwe/liwe.py"
 exec_always --no-startup-id "while sleep 10m; do python $HOME/liwe/liwe.py; done"
+# Exit i3 and login again
 ```
 ### Important
 Edit lines 7 to 10 in liwe.py and replace ```<soham>``` with ```<your user name>```
