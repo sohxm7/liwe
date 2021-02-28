@@ -2,14 +2,15 @@ import os
 from PIL import Image
 from datetime import datetime
 
-dixt = {"cliff":"images/The-Cliffs/",
-        "beach":"images/The-Beach/",
-        "desert":"images/The-Desert/",
-        "lake":"images/The-Lake/"
+dixt = {"cliff":"images/c",
+        "beach":"images/b",
+        "desert":"images/d",
+        "lake":"images/l"
         }
 
 # For selecting the wallpaper edit line below
 # wallpapers: "cliff", "beach", "desert", "lake"
+
 selected = dixt["cliff"]
 
 nowx = datetime.now()
@@ -21,8 +22,8 @@ if imgx==8:
         nexx=0
 else:
         nexx = imgx + 1
-bg = Image.open(selected+str(imgx)+".jpg")
-fg = Image.open(selected+str(nexx)+".jpg")
+bg = Image.open(selected+str(imgx)+".png")
+fg = Image.open(selected+str(nexx)+".png")
 Image.blend(bg, fg, alpx).save("out.png")
 command = "feh --bg-scale out.png"
 os.system(command)
