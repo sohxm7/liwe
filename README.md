@@ -1,8 +1,6 @@
 ## Liwe - under work
 
-taken from github.com/hexive/sunpaper which was written in bash, but wasnt working on my machine for some reason. 
-
-Liwe is written in python (and kinda slow) but does the work perfectly, also smooth fading between wallpapers is added.
+Liwe is a live wallpaper changer written in python. Tho it only support 1 monitor setup as of now.
 
 ### Dependencies
 + [feh](https://github.com/derf/feh)
@@ -24,3 +22,4 @@ exec_always --no-startup-id "python $HOME/liwe/liwe.py"
 exec_always --no-startup-id "while sleep 10m; do python $HOME/liwe/liwe.py; done"
 # Exit i3 and login again
 ```
+images were taken from [sunpaper](https://github.com/hexive/sunpaper).
