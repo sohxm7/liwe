@@ -24,7 +24,7 @@ minx = int(nowx.strftime("%M"))
 imgx = int(hour/3) + 1
 alpx = (((hour%3)*60)+minx)/180
 if imgx==8:
-        nexx=0
+        nexx = 1
 else:
         nexx = imgx + 1
 
