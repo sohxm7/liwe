@@ -13,5 +13,5 @@ Liwe is written in python (and kinda slow) but does the work perfectly.
 git clone https://github.com/sohxm7/liwe.git
 cd liwe
 python init.py # run only one time
-python liwe.py
+python liwe.py # run everytime you want to update wallpaper, as of now
 ```
