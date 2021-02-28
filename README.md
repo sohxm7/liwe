@@ -13,9 +13,12 @@ Liwe is written in python (and kinda slow) but does the work perfectly, also smo
 git clone https://github.com/sohxm7/liwe.git
 cd liwe
 python init.py 
+chmod +x liwe.py
 ```
 ### Add in i3 config
 ```
 exec_always --no-startup-id "python $HOME/liwe/liwe.py"
 exec_always --no-startup-id "while sleep 10m; do python $HOME/liwe/liwe.py; done"
 ```
+### Important
+Edit lines 7 to 10 in liwe.py and replace ```<soham>``` with ```<your user name>```
