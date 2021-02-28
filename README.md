@@ -1,4 +1,4 @@
-## Liwe - under work
+## Liwe 
 
 Liwe is a live wallpaper changer written in python. Tho it only support 1 monitor setup as of now.
 
