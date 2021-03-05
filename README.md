@@ -22,4 +22,11 @@ exec_always --no-startup-id "python $HOME/liwe/liwe.py"
 exec_always --no-startup-id "while sleep 10m; do python $HOME/liwe/liwe.py; done"
 # Exit i3 and login again
 ```
+### Changing wallpaper
+Edit line 15 of liwe.py with desired wallpaper name.
+Available Wallpapers: "cliff", "beach", "desert", "lake"
+```selected = dixt["beach"]```
+
+
+
 images were taken from [sunpaper](https://github.com/hexive/sunpaper).
