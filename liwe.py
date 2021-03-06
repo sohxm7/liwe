@@ -5,16 +5,17 @@ from PIL import Image
 from datetime import datetime
 
 path = os.getcwd()
-dixt = {"cliff": os.path.join(path, "images/new/c"),
-        "beach": os.path.join(path, "images/new/b"),
-        "desert":os.path.join(path, "images/new/d"),
-        "lake":  os.path.join(path, "images/new/l")
+dixt = {"cliff": os.path.join(path, "liwe/images/new/c"),
+        "beach": os.path.join(path, "liwe/images/new/b"),
+        "desert":os.path.join(path, "liwe/images/new/d"),
+        "lake":  os.path.join(path, "liwe/images/new/l")
         }
 
 # For selecting the wallpaper edit line below
 # wallpapers: "cliff", "beach", "desert", "lake"
 selected = dixt["beach"]
 
+print(selected)
 # This is a comment
 # Take current Time
 nowx = datetime.now()
