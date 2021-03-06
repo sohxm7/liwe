@@ -13,8 +13,6 @@ cd liwe
 python init.py 
 chmod +x liwe.py
 ```
-### Important
-Edit lines 7 to 10 in liwe.py and replace ```<soham>``` with ```<your user name>```
 
 ### Add in i3 config
 ```
