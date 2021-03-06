@@ -4,16 +4,18 @@ import os
 from PIL import Image
 from datetime import datetime
 
-dixt = {"cliff": "/home/soham/liwe/images/new/c",
-        "beach": "/home/soham/liwe/images/new/b",
-        "desert":"/home/soham/liwe/images/new/d",
-        "lake":  "/home/soham/liwe/images/new/l"
+path = os.getcwd()
+dixt = {"cliff": os.path.join(path, "images/new/c"),
+        "beach": os.path.join(path, "images/new/b"),
+        "desert":os.path.join(path, "images/new/d"),
+        "lake":  os.path.join(path, "images/new/l")
         }
 
 # For selecting the wallpaper edit line below
 # wallpapers: "cliff", "beach", "desert", "lake"
 selected = dixt["beach"]
 
+# This is a comment
 # Take current Time
 nowx = datetime.now()
 hour = int(nowx.strftime("%H"))
