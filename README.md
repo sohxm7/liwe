@@ -37,5 +37,6 @@ Edit line 15 of liwe.py with desired wallpaper name.
 Available Wallpapers: "cliff", "beach", "desert", "lake"
 
 ```selected = dixt["beach"]```
------
+
+
 images were taken from [sunpaper](https://github.com/hexive/sunpaper).
