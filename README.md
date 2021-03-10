@@ -3,7 +3,7 @@
 Liwe is a live wallpaper changer written in python. Tho it only support 1 monitor setup as of now.
 
 ### Dependencies
-+ [feh](https://github.com/derf/feh)
++ [xwallpaper](https://archlinux.org/packages/community/x86_64/xwallpaper/)
 + [screeninfo](https://pypi.org/project/screeninfo/)
 
 ### Installation and configuration
@@ -16,6 +16,7 @@ chmod +x liwe.py
 
 ### Add in i3 config
 ```
+exec_always --no-startup-id "xwallpaper --center $HOME/liwe/out.png"
 exec_always --no-startup-id "python $HOME/liwe/liwe.py"
 exec_always --no-startup-id "while sleep 10m; do python $HOME/liwe/liwe.py; done"
 # Exit i3 and login again
