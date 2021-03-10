@@ -13,9 +13,8 @@ dixt = {"cliff": os.path.join(path, "liwe/images/new/c"),
 
 # For selecting the wallpaper edit line below
 # wallpapers: "cliff", "beach", "desert", "lake"
-selected = dixt["beach"]
+selected = dixt["desert"]
 
-print(selected)
 # This is a comment
 # Take current Time
 nowx = datetime.now()
@@ -62,9 +61,10 @@ else:
 # Merge both images based on time and alpha
 bg = Image.open(selected+str(imgx)+".png")
 fg = Image.open(selected+str(nexx)+".png")
-Image.blend(bg, fg, alpx).save("out.png")
+Image.blend(bg, fg, alpx).save(path+"/liwe/out.png")
 
 # Command for changing the wallpaper
 # Can customise it accordingly
-command = "feh --bg-scale out.png"
+command = "xwallpaper --center " +path+ "/liwe/out.png"
+
 os.system(command)
