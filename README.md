@@ -29,7 +29,7 @@ exec_always --no-startup-id "while sleep 10m; do python $HOME/liwe/liwe.py; done
 Uncomment the following lines in liwe.py
 ```
 command1 = "wal -i $HOME/liwe/out.png"
-os.system(command0)
+os.system(command1)
 ```
 
 ## Changing wallpaper
