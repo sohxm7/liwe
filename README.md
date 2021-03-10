@@ -16,7 +16,7 @@ python init.py
 chmod +x liwe.py
 ```
 
-### Add in i3 config
+### Add in ```.config/i3/config```
 ```
 exec_always --no-startup-id "xwallpaper --center $HOME/liwe/out.png"
 exec_always --no-startup-id "python $HOME/liwe/liwe.py"
