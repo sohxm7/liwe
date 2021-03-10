@@ -1,6 +1,6 @@
 ## Liwe 
 
-Liwe is a live wallpaper changer written in python. Tho it only support 1 monitor setup as of now.
+Liwe is a live wallpaper written in python. Supports only 1 monitor setup as of now.
 
 ![wallpaper](images/liwe.gif)
 
@@ -8,7 +8,7 @@ Liwe is a live wallpaper changer written in python. Tho it only support 1 monito
 + [xwallpaper](https://archlinux.org/packages/community/x86_64/xwallpaper/)
 + [screeninfo](https://pypi.org/project/screeninfo/)
 
-### Installation and configuration
+### Install and Config
 ```
 git clone https://github.com/sohxm7/liwe.git
 cd liwe
