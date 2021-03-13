@@ -65,7 +65,7 @@ Image.blend(bg, fg, alpx).save(path+"/liwe/out.png")
 
 # Command for changing the wallpaper
 # Can customise it accordingly
-command0 = "xwallpaper --center $HOME/liwe/out.png"
+command0 = "feh --bg-scale $HOME/liwe/out.png"
 os.system(command0)
 
 # Uncomment below 2 lines for adding pywal 
