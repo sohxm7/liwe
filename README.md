@@ -5,7 +5,7 @@ Liwe is a live wallpaper written in python. Supports only 1 monitor setup as of 
 ![wallpaper](images/gix.gif)
 
 ## Dependencies
-+ [xwallpaper](https://archlinux.org/packages/community/x86_64/xwallpaper/)
++ [feh](https://github.com/derf/feh)
 + [screeninfo](https://pypi.org/project/screeninfo/)
 + [pywal (optional)](https://github.com/dylanaraps/pywal)
 
@@ -25,14 +25,14 @@ exec_always --no-startup-id "while sleep 10m; do python $HOME/liwe/liwe.py; done
 # Exit i3 and login again
 ```
 
-## Activating Pywal
+## Enable Pywal
 Uncomment the following lines in liwe.py
 ```
 command1 = "wal -i $HOME/liwe/out.png"
 os.system(command1)
 ```
 
-## Changing wallpaper
+## Change wallpaper
 Edit line 15 of liwe.py with desired wallpaper name.
 Available Wallpapers: "cliff", "beach", "desert", "lake"
 
